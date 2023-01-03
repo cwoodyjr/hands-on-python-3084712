@@ -7,6 +7,7 @@ CODE_SPACE = "code_space"
 LOCAL = "local"
 
 current_env = os.environ.get("ENV_NAME", DEVELOPMENT)
+# run cmd 'export ENV_NAME='...' to change current_env
 
 if current_env == DEVELOPMENT:
     print("Development environment")
